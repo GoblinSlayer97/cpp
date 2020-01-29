@@ -3,14 +3,8 @@
 
 using namespace std;
 	
-	 
-
-
-
 	 int main() {
-	 
-	 	
-	 	
+	  	
 	 
     double r1=0 ,r2=0,r3=0, paralela = 0,serie = 0;
 		
@@ -26,8 +20,7 @@ using namespace std;
 	 	paralela = 1 / (1/r1 + 1/r2 + 1/r3);
 		serie = r1 + r2 + r3;
 		
-		
-		
+			
 		std::string par = std::to_string(paralela);
 		std::string ser = std::to_string(serie);
 		cout << "El resultado en paralelo es " + par + " y en serie " + ser;
